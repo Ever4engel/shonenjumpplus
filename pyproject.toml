@@ -5,6 +5,9 @@ description = "downloader for shonenjumpplus"
 authors = ["Hiroki Ishioka <ishioka0222@gmail.com>"]
 readme = "README.md"
 
+[tool.poetry.scripts]
+shonenjumpplus = "shonenjumpplus.cli:main"
+
 [tool.poetry.dependencies]
 python = "^3.10"
 click = "^8.1.3"
