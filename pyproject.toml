@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "shonenjumpplus"
 version = "0.1.0"
-description = ""
+description = "downloader for shonenjumpplus"
 authors = ["Hiroki Ishioka <ishioka0222@gmail.com>"]
 readme = "README.md"
 
