@@ -1,0 +1,3 @@
+# shonenjumpplus
+
+downloader for shonenjumpplus
