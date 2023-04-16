@@ -79,7 +79,6 @@ def download(episode_uri, email, password):
                 image_bytes = response.content
                 puzzled_image = Image.open(BytesIO(image_bytes))
                 unpuzzled_image = unpuzzle_image(puzzled_image)
-                box = (0, 0, width, height)
 
                 filename = f'{str(index).zfill(4)}.jpg'
                 path = os.path.join(dirname, filename)
